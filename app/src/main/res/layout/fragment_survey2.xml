@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".survey.Survey2Fragment">
+
+    <Button
+        android:id="@+id/btn_rect_student"
+        android:layout_width="253dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/grey_rectangle_unselect_background"
+        android:text="Art Student"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tag="unselected"/>
+
+    <Button
+        android:id="@+id/btn_rect_prof"
+        android:layout_width="253dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/grey_rectangle_unselect_background"
+        android:text="Art Professional"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rect_student"
+        android:tag="unselected"/>
+
+    <Button
+        android:id="@+id/btn_rect_aspiring"
+        android:layout_width="253dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/grey_rectangle_unselect_background"
+        android:text="Aspiring Artist"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rect_prof"
+        android:tag="unselected"/>
+
+    <Button
+        android:id="@+id/btn_rect_hobbyist"
+        android:layout_width="253dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/grey_rectangle_unselect_background"
+        android:text="Art Hobbyist"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rect_aspiring"
+        android:tag="unselected"/>
+
+    <Button
+        android:id="@+id/btn_rect_other"
+        android:layout_width="253dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/grey_rectangle_unselect_background"
+        android:text="Other"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rect_hobbyist"
+        android:tag="unselected"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/max_blue_purple"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:cornerRadius="45dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_rect_other"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

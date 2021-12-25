@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:drawable="@color/cultured" />
+
+    <item
+        android:drawable="@drawable/ic_calico_bulb_icon"
+        android:gravity="center"
+        android:height="165dp"
+        android:width="127.5dp"/>
+
+</layer-list>

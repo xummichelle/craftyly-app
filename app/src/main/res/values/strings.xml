@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Craftyly</string>
+    <!--    TODO delete facebook id if not making facebook login-->
+    <string name="facebook_app_id">418391606348935</string>
+    <string name="fb_login_protocol_scheme">fb418391606348935</string>
+
+    <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_filters">FiltersActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="about_1">As artists ourselves, we understand firsthand the difficulties that come with art block. There can be stress in teh most mundane things about creating art. Our team wanted to challenge artists\' creativity to bloom their potential and challenge artists\' creativity to conquer this obstacle. From there, we formed Craftyly and decided on a simple and important mission: empowering artists to bloom their potential and challenge their potential.</string>
+    <string name="about_2">The app was created by Tiffany Trinh and Michelle Xu, two high school students in their junior year of high school.</string>
+    <string name="about_3">Special thanks to: Skye Kim who guided us and provided valuable feedback throughout the development of the app</string>
+    <string name="about_4">Thank you to those who tested the prototype of our app (:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

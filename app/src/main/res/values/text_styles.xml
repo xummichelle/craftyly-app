@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="small_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/raisin_black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="small_heading_med_purple_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/med_purple</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="extrabolded_small_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans_extrabold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/raisin_black</item>
+    </style>
+
+
+    <style name="normal_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/raisin_black</item>
+    </style>
+
+    <style name="bolded_normal_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/raisin_black</item>
+    </style>
+
+    <style name="extrabolded_normal_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans_extrabold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/raisin_black</item>
+    </style>
+
+    <style name="unbolded_large_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/raisin_black</item>
+    </style>
+
+    <style name="bolded_large_heading_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans_extrabold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/raisin_black</item>
+    </style>
+
+
+    <style name="basic_raisin_black_text" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/raisin_black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="small_prompt_raisin_black_text" parent="android:TextAppearance">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/raisin_black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

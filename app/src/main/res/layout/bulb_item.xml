@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_bulb_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground"
+    >
+
+    <ImageView
+        android:id="@+id/image_view_bulb_choice"
+        android:layout_width="85dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_craftyly_bulb_icon"
+        android:tag="1"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

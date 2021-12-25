@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="89dp"
+    tools:context=".main.notes.NotesListFragment"
+    android:background="@drawable/note_grid"
+    >
+
+    <TextView
+        android:id="@+id/note_list_header_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textColor="@color/raisin_black"
+        android:textAppearance="@style/bolded_large_heading_raisin_black_text"
+        app:layout_constraintStart_toStartOf="@id/guideline18"
+        app:layout_constraintTop_toTopOf="@id/guideline17"
+        />
+
+    <TextView
+        android:id="@+id/my_notes_list_header_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Notes"
+        android:textAppearance="@style/unbolded_large_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintStart_toStartOf="@+id/guideline18"
+        app:layout_constraintTop_toBottomOf="@+id/open_accept_list_button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/open_accept_list_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/low_opacity_pale_spring_bud"
+        android:text="Accepted"
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+
+        android:textAllCaps="false"
+        android:textAppearance="@style/small_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        app:cornerRadius="15dp"
+
+        app:icon="@drawable/ic_button_accept_list_icon"
+        app:iconGravity="textTop"
+        app:iconPadding="-1dp"
+        app:iconSize="28dp"
+        app:iconTint="@color/raisin_black"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/open_reject_list_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_list_header_text_view" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/open_reject_list_button"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/low_opacity_tangerine"
+        android:text="Rejected"
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+
+        android:textAllCaps="false"
+        android:textAppearance="@style/small_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        app:cornerRadius="15dp"
+
+        app:icon="@drawable/ic_button_reject_list_icon"
+        app:iconGravity="textTop"
+        app:iconPadding="-1dp"
+        app:iconSize="28dp"
+        app:iconTint="@color/raisin_black"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/open_accept_list_button"
+        app:layout_constraintTop_toBottomOf="@+id/note_list_header_text_view" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/new_note_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="New Note"
+        android:textAllCaps="false"
+        android:textAppearance="@style/small_heading_med_purple_text"
+        android:textColor="@color/med_purple"
+
+        app:icon="@drawable/ic_add_circle_outline"
+        app:iconGravity="textStart"
+        app:iconPadding="4dp"
+        app:iconSize="20dp"
+        app:iconTint="@color/med_purple"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/my_notes_list_header_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19" />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_notes_recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/note_list_recyclerview_background"
+            android:clipToPadding="true"
+            android:outlineProvider="bounds"
+            android:elevation="0dp"
+            app:layout_constraintTop_toTopOf="@+id/guideline24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/open_reject_list_button"
+            app:layout_constraintStart_toStartOf="@+id/open_accept_list_button"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_subtract_notelist_background"
+            app:layout_constraintTop_toTopOf="@id/my_notes_recyclerview"
+            app:layout_constraintStart_toStartOf="@id/my_notes_recyclerview"
+            app:layout_constraintEnd_toEndOf="@id/my_notes_recyclerview"
+            />
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.048250906" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.050890584" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9109415" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2557298" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

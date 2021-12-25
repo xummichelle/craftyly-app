@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".survey.SurveyActivity">
+
+    <TextView
+        android:id="@+id/survey_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:text="Let's Start!"
+        app:layout_constraintTop_toTopOf="@id/guideline14"
+        app:layout_constraintStart_toStartOf="@id/guideline15"/>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/survey_progress_indicator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline16"
+        app:layout_constraintStart_toStartOf="@+id/guideline15"
+        app:layout_constraintTop_toBottomOf="@id/survey_title_text_view"
+        app:trackCornerRadius="30dp"
+        app:trackThickness="8dp"
+        app:indicatorColor="@color/med_purple"
+        />
+
+    <TextView
+        android:id="@+id/survey_question_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="What medium of art do you enjoy? \n (select all that apply)"
+        android:textAppearance="@style/basic_raisin_black_text"
+        app:layout_constraintEnd_toEndOf="@id/guideline16"
+        app:layout_constraintStart_toStartOf="@+id/guideline15"
+        app:layout_constraintTop_toBottomOf="@id/survey_progress_indicator" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/survey_fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/survey_question_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.048250906" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.89" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

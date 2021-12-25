@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CraftylyApp1" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/med_purple</item>
+        <item name="colorPrimaryVariant">@color/max_blue_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/med_purple</item>
+        <item name="colorSecondary">@color/max_blue_purple</item>
+        <item name="colorAccent">@color/pale_spring_bud</item>
+        <item name="android:statusBarColor">@color/max_blue_purple</item>
+    </style>
+
+    <style name="SplashActivityStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="SplashActivityCalicoStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/splash_calico_background</item>
+    </style>
+
+    <style name="SplashActivityCraftylyCalicoStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/splash_craftyly_calico_background</item>
+    </style>
+
+    <style name="SplashActivityLemonStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/splash_lemon_background</item>
+    </style>
+
+    <style name="SplashActivitySunsetStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/splash_sunset_background</item>
+    </style>
+
+    <style name="SplashActivityCamoStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:windowBackground">@drawable/splash_camo_background</item>
+    </style>
+
+
+
+    <style name="PreferenceScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:textColor">@color/raisin_black</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="colorAccent">@color/pale_spring_bud</item>
+        <item name="android:statusBarColor">@color/max_blue_purple</item>
+
+    </style>
+
+    <style name="Theme.CraftylyApp1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CraftylyApp1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CraftylyApp1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/theme_item_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_view_theme_lightbulb"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/ic_craftyly_bulb_icon"
+            android:tag="1"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_theme_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/image_view_theme_lightbulb"
+            android:maxLines="1"
+            android:text="Theme"
+            android:textAppearance="@style/bolded_normal_heading_raisin_black_text"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_view_theme_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purple, green, and tangerine"
+            android:textAppearance="@style/basic_raisin_black_text"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/image_view_theme_lightbulb"
+            android:layout_marginTop="8dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

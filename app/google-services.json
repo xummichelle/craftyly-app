@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913396642510",
+    "project_id": "craftyly",
+    "storage_bucket": "craftyly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913396642510:android:39d9a0a5a511bbf43c969f",
+        "android_client_info": {
+          "package_name": "com.craftylyteam.craftylyapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913396642510-mvo4bs8t7pqsuu4m59gjlqm455jqkc7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm55Bf5J3h3kM9CKGjaJt_2H-eYA9zq2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913396642510-mvo4bs8t7pqsuu4m59gjlqm455jqkc7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

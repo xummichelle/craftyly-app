@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:key="themes"
+        app:title="Themes"
+        app:fragment="com.craftylyteam.craftylyapp1.main.prompt.settings.ThemesFragment"
+
+        />
+    <Preference
+        app:key="shop"
+        app:title="Shop"
+        app:fragment="com.craftylyteam.craftylyapp1.main.prompt.settings.ShopFragment"
+        />
+    <Preference
+        app:key="about"
+        app:title="About"
+        app:fragment="com.craftylyteam.craftylyapp1.main.prompt.settings.AboutFragment"
+        />
+    <Preference
+        app:key="signOut"
+        app:title="Sign Out"
+        />
+
+
+</PreferenceScreen>

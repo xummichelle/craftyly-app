@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/note_grid"
+    tools:context=".main.notes.RejectedListFragment"
+    android:paddingBottom="89dp">
+
+    <ImageView
+        android:id="@+id/rejected_header_highlight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@id/rejected_list_header"
+        app:layout_constraintEnd_toStartOf="@+id/guideline30"
+        app:layout_constraintStart_toStartOf="@+id/guideline29"
+        app:layout_constraintTop_toTopOf="@id/rejected_list_header"
+        app:srcCompat="@drawable/ic_rejected_highlight"
+        app:tint="@color/low_opacity_tangerine" />
+
+    <TextView
+        android:id="@+id/rejected_list_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejected"
+        android:textAppearance="@style/bolded_large_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        app:layout_constraintStart_toStartOf="@id/guideline40"
+        app:layout_constraintTop_toTopOf="@id/guideline39" />
+
+    <ImageView
+        android:id="@+id/rejected_header_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@id/rejected_list_header"
+        app:layout_constraintStart_toEndOf="@id/rejected_list_header"
+        app:layout_constraintTop_toTopOf="@id/rejected_list_header"
+        app:srcCompat="@drawable/ic_button_reject_list_icon" />
+
+    <ImageButton
+        android:id="@+id/rejected_list_arrow_nav_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/actionBarItemBackground"
+        app:layout_constraintEnd_toEndOf="@id/guideline42"
+        app:layout_constraintTop_toTopOf="@+id/guideline39"
+        app:srcCompat="@drawable/ic_settings_arrow_nav" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rejected_list_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/low_opacity_recycler_grey"
+        android:clipToPadding="true"
+        android:elevation="0dp"
+        android:outlineProvider="bounds"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline42"
+        app:layout_constraintStart_toStartOf="@id/guideline40"
+        app:layout_constraintTop_toTopOf="@+id/guideline44" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@id/rejected_list_recycler_view"
+        app:layout_constraintStart_toStartOf="@id/rejected_list_recycler_view"
+        app:layout_constraintTop_toTopOf="@id/rejected_list_recycler_view"
+        app:srcCompat="@drawable/ic_subtract_notelist_background" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.048250906" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9109415" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.52" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="med_purple">#916CD4</color>
+    <color name="max_blue_purple">#C2AFF0</color>
+    <color name="raisin_black">#242229</color>
+    <color name="cultured">#F2F2F2</color>
+    <color name="pale_spring_bud">#E7EFB6</color>
+    <color name="tea_green">#E8FFB7</color>
+    <color name="moss_green">#9BA55E</color>
+
+    <color name="tangerine">#EA9E8D</color>
+    <color name="gray_web">#7E7E7E</color>
+
+    <color name="low_opacity_tangerine">#80EA9E8D</color>
+    <color name="low_opacity_pale_spring_bud">#99E7EFB6</color>
+    <color name="low_opacity_recycler_grey">#80D8D8D8</color>
+
+    <color name="red">#FF0015</color>
+
+
+    <color name="greyed_out">#C4C4C4</color>
+
+<!--calico-->
+<!--    primary-->
+    <color name="calico_light_brown">#8F6C49</color>
+    <color name="calico_pink">#E8ADA5</color>
+<!--    secondary-->
+    <color name="calico_orange">#E07E3D</color>
+    <color name="calico_pink_low_opac">#80E8ADA5</color>
+    <color name="calico_orange_low_opac">#80E07E3D</color>
+
+<!--    lemon-->
+    <color name="lemon_dark_green">#2D3F01</color>
+    <color name="lemon_light_yellow">#FFDF30</color>
+<!--    secondary-->
+    <color name="lemon_yellow">#EFB018</color>
+    <color name="lemon_gold">#D19402</color>
+<!--    primary-->
+    <color name="lemon_bright_green">#80A300</color>
+    <color name="lemon_yellow_low_opac">#80FFDF30</color>
+    <color name="lemon_bright_green_low_opac">#8080A300</color>
+    FCC129
+
+<!--    sunset-->
+<!--    primary-->
+    <color name="sunset_deep_purple">#493b5d</color>
+    <color name="sunset_yellow">#f7dc6f</color>
+    <color name="sunset_orange">#f49751</color>
+<!--    secondary-->
+    <color name="sunset_red">#f55b50</color>
+    <color name="sunset_red_low_opac">#80f55b50</color>
+    <color name="sunset_yellow_low_opac">#80f7dc6f</color>
+
+<!--   camo -->
+    <color name="camo_olive">#4d4729</color>
+<!--    secondary-->
+    <color name="camo_green">#7e8341</color>
+    <color name="camo_light_green">#9ea868</color>
+<!--    primary-->
+    <color name="camo_light_blue">#b1cecc</color>
+    <color name="camo_light_blue_low_opac">#80b1cecc</color>
+    <color name="camo_green_low_opac">#807e8341</color>
+
+
+
+</resources>

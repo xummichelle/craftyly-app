@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".survey.Survey1Fragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scrollbars="none">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_circle1"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="112dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="2D Design"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle2"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle1"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Drawing"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle3"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="48dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_circle1"
+                android:text="Graphite"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle4"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle3"
+                app:layout_constraintTop_toBottomOf="@id/btn_circle2"
+                android:text="3D Design"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle5"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginStart="24dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle3"
+                app:layout_constraintTop_toBottomOf="@id/btn_circle4"
+                android:text="Illustrations"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle6"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="138dp"
+                android:layout_marginStart="11dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle2"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Oil Paints"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle7"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="58dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle5"
+                app:layout_constraintTop_toBottomOf="@id/btn_circle6"
+                android:text="Water Colour"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle8"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle6"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Print \nMaking"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle9"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="21dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle7"
+                app:layout_constraintTop_toBottomOf="@id/btn_circle8"
+                android:text="Sculpture"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+            <Button
+                android:id="@+id/btn_circle10"
+                android:layout_width="133.32dp"
+                android:layout_height="133.32dp"
+                android:layout_marginTop="59dp"
+                android:layout_marginStart="34dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_circle7"
+                app:layout_constraintTop_toBottomOf="@id/btn_circle9"
+                android:text="Other"
+                android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+                android:textColor="@color/white"
+                android:background="@drawable/grey_circle"
+                android:tag="unselected"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/max_blue_purple"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:cornerRadius="45dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="63dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/med_purple"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cons_layout_bulb_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/image_button_close_reminder_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/actionBarItemBackground"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_close" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Just a reminder!"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@id/cons_layout_bulb_reminder"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cons_layout_bulb_reminder"/>
+
+            <TextView
+                android:id="@+id/reminder_msg_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:maxLines="3"
+                android:text="Creating masterpieces takes time. Don't stress, take
+a deep breath, and remember to stay hydrated (:"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toStartOf="@+id/image_button_close_reminder_dialog"
+                app:layout_constraintStart_toStartOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="- The Craftyly Team"
+                android:textColor="#C4C4C4"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/textView"
+                app:layout_constraintTop_toBottomOf="@id/reminder_msg_text_view" />
+
+            <ImageView
+                android:id="@+id/image_view_bulb_glow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toBottomOf="@id/image_view_bulb_reminder"
+                app:layout_constraintEnd_toEndOf="@+id/image_view_bulb_reminder"
+                app:layout_constraintStart_toStartOf="@id/cons_layout_bulb_reminder"
+                app:layout_constraintTop_toTopOf="@+id/image_view_bulb_reminder"
+                app:srcCompat="@drawable/bulb_glow" />
+
+            <ImageView
+                android:id="@+id/image_view_bulb_reminder"
+                android:layout_width="85dp"
+                android:layout_height="110dp"
+                app:layout_constraintBottom_toBottomOf="@id/cons_layout_bulb_reminder"
+                app:layout_constraintEnd_toStartOf="@+id/textView"
+                app:layout_constraintStart_toStartOf="@id/cons_layout_bulb_reminder"
+                app:layout_constraintTop_toTopOf="@id/cons_layout_bulb_reminder"
+                app:srcCompat="@drawable/ic_craftyly_bulb_icon" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

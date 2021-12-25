@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/blob_filter_blue.xml" value="0.18552631578947368" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/blob_intro_pink.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/bulb_glow.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/green_gradient_background.xml" value="0.18552631578947368" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/ic_craftyly_bulb_icon.xml" value="0.18552631578947368" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/ic_default_logo.xml" value="0.18311688311688312" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/purple_gradient_background.xml" value="0.1850877192982456" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/selected_intro_dot.xml" value="0.1037037037037037" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/splash_background.xml" value="0.18552631578947368" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/drawable/unselected_intro_dot.xml" value="0.1" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/activity_auth.xml" value="0.22" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/activity_intro.xml" value="0.5" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/activity_main.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/activity_quiz.xml" value="0.10869565217391304" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/activity_settings.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/activity_survey.xml" value="0.2" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/bulb_item.xml" value="0.1" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_edit_bulb.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_edit_note.xml" value="0.5" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_filters.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_incan_shop.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_notes_list.xml" value="0.25" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_prompt.xml" value="0.25" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_rejected_list.xml" value="0.22" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_shop.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_survey1.xml" value="0.22" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/fragment_survey2.xml" value="0.22" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/lightbulb_reminder_layout_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/note_item.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/slide_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/layout/themes_item.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/Michelle/AndroidStudioProjects/CraftylyApp1/app/src/main/res/xml/root_preferences.xml" value="0.10869565217391304" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

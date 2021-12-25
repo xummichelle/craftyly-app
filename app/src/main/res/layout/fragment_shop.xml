@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".main.prompt.settings.ShopFragment"
+    android:fillViewport="false"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_incandescent"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incandescent Pack"
+            android:textAppearance="@style/normal_heading_raisin_black_text"
+            android:textColor="@color/moss_green"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$1.25 CAD/month"
+            android:textAppearance="@style/normal_heading_raisin_black_text"
+            android:textColor="@color/raisin_black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Removes in-app ads"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Unlock one colour theme for a month"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Unlock one custom lightbulb for a month"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_incandescent_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/max_blue_purple"
+            app:cornerRadius="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            />
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_flourescent"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fluorescent Pack"
+            android:textAppearance="@style/normal_heading_raisin_black_text"
+            android:textColor="@color/tangerine"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$3.78 CAD/month"
+            android:textAppearance="@style/normal_heading_raisin_black_text"
+            android:textColor="@color/raisin_black"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Removes in-app ads"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Unlock all forms of customization for a month"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(all colour themes and custom lightbulbs)"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_fluorescent_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/max_blue_purple"
+            app:cornerRadius="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            />
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_led"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LED Pack"
+            android:textAppearance="@style/normal_heading_raisin_black_text"
+            android:textColor="@color/med_purple"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$37.76 CAD/year"
+            android:textAppearance="@style/normal_heading_raisin_black_text"
+            android:textColor="@color/raisin_black"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Removes in-app ads"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Unlock all forms of customization for an entire year"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(all colour themes and all custom lightbulbs"
+            android:textAppearance="@style/small_prompt_raisin_black_text"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_led_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/max_blue_purple"
+            app:cornerRadius="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
