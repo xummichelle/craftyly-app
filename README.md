@@ -13,6 +13,11 @@ Craftyly is an app made to be a personalized space for artists and their ideas. 
 
 ![welcome-scrnshot](https://user-images.githubusercontent.com/96635277/159149422-b20dbf1c-7625-46b7-8f69-9b385461267e.png) ![notes-scrnshot](https://user-images.githubusercontent.com/96635277/159149414-bb2a2c08-c7cd-445f-a5ee-d0091d133d96.png) 
 
+## Contents
+[Overview](#overview)  
+[Features](#features)  
+[How to set up database](#how-to-set-up-database)  
+[Acknowledgements](#acknowledgements)  
 
 ## Overview
 Craftyly is developed using **Java** in Android Studio with **Firebase** Firestore and Authentication SDK as a backend. Concepts of **MVVM architecture** are also incorporated throughout the app.
@@ -60,3 +65,20 @@ Here is an example of how to set up the art prompt collections and documents in 
 Team Craftyly: Michelle Xu and Tiffany Trinh  
 Mentor: Skye Kim  
 Prototype testers: Aileen K (UX/UI Designer), Nayun K. (UI Designer), Yeojin (Registered Nurse)  
+
+Credit to:  
+Coding In Flow - Tutorials to start with MVVM architecture, RecyclerView and Firestore  
+[Android Architecture Components Beginner Tutorial - Room + ViewModel + LiveData + RecyclerView MVVM](https://www.youtube.com/playlist?list=PLrnPJCHvNZuDihTpkRs6SpZhqgBqPU118)  
+[Cloud Firestore Android Tutorials](https://www.youtube.com/watch?v=vMnCU6KKHd4&list=PLrnPJCHvNZuDrSqu-dKdDi3Q6nM-VUyxD&ab_channel=CodinginFlow)  
+[Firebase UI - Firestore + RecyclerView](https://www.youtube.com/watch?v=ub6mNHWGVHw&list=PLrnPJCHvNZuAXdWxOzsN5rgG2M4uJ8bH1&ab_channel=CodinginFlow)  
+
+Alex Mamo - MVVM, Firestore, Firebase Auth  
+https://github.com/alexmamo/FilterFirestoreResults  
+https://github.com/alexmamo/FirebaseAuthentication  
+https://github.com/alexmamo/FirebaseApp-Clean-Architecture-MVVM  
+
+yuyakaido  
+https://github.com/yuyakaido/CardStackView  
+
+mreram  
+https://github.com/mreram/ShowCaseView  
