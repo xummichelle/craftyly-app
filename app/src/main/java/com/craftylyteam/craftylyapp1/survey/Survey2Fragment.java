@@ -129,7 +129,12 @@ public class Survey2Fragment extends Fragment implements View.OnClickListener{
                 }
                 break;
             case R.id.btn_submit:
-                goToMainActivity();
+                Survey3Fragment survey3Fragment= new Survey3Fragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(((ViewGroup)getView().getParent()).getId(), survey3Fragment, "")
+                        .setReorderingAllowed(true)
+                        .addToBackStack(null)
+                        .commit();
                 break;
             default:
                 break;

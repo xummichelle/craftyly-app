@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".survey.Survey3Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <CheckBox
+        android:id="@+id/survey_check_box_characters"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:button="@drawable/check_box_selector"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        android:text="Characters"
+        android:checked="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="16dp"
+        />
 
-</FrameLayout>
+    <CheckBox
+        android:id="@+id/survey_check_box_feelings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:button="@drawable/check_box_selector"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        android:text="Feelings"
+        android:checked="true"
+        android:paddingLeft="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/survey_check_box_characters" />
+
+    <CheckBox
+        android:id="@+id/survey_check_box_environments"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:button="@drawable/check_box_selector"
+        android:textAppearance="@style/extrabolded_normal_heading_raisin_black_text"
+        android:textColor="@color/raisin_black"
+        android:text="Environments"
+        android:checked="true"
+        android:paddingLeft="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/survey_check_box_feelings" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/max_blue_purple"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:cornerRadius="45dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintTop_toBottomOf="@id/survey_check_box_environments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
