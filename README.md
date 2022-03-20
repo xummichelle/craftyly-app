@@ -42,6 +42,3 @@ Lastly, clicking sign out will sign out the user and bring them back to the sign
 Team Craftyly: Michelle Xu and Tiffany Trinh  
 Mentor: Skye Kim  
 Prototype testers: Aileen K (UX/UI Designer), Nayun K. (UI Designer), Yeojin (Registered Nurse)  
-  
-April 2021 - Submitted for the Technovation competition.  
-July 2021 - Revisited and added more in consideration of an actual release of the app.
