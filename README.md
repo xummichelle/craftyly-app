@@ -21,7 +21,7 @@ Craftyly is an app made to be a personalized space for artists and their ideas. 
 ## Overview
 Craftyly is developed using **Java** in Android Studio with **Firebase** Firestore and Authentication SDK as a backend. Concepts of **MVVM architecture** are also incorporated throughout the app.
 
-This project was a submission for the **Technovation Girls 2021** challenge. The Technovation Girls challenge provides youth with resources and a **12-week time** period to program an app, write a business plan, and create a pitch. The purpose of is to solve real-world issues and inspire innovation.
+This project first began as submission for the **Technovation Girls 2021** challenge. The Technovation Girls challenge provides youth with resources and a **12-week time** period to program an app, write a business plan, and create a pitch. The purpose of is to solve real-world issues and inspire innovation.
 More information about the challenge found [here](https://technovationchallenge.org/).
 
 ## Features
