@@ -10,7 +10,7 @@ Craftyly is an app made to be a personalized space for artists and their ideas. 
 * **Create and edit notes** to keep ideas and thoughts
 * **Customize your interface** with a variety of colour themes  
 
-<img src="https://user-images.githubusercontent.com/96635277/159168502-89d97ce6-7d8a-476b-9019-7adc0a16972f.png" width="240" height="512" /> ![welcome-scrnshot](https://user-images.githubusercontent.com/96635277/159149422-b20dbf1c-7625-46b7-8f69-9b385461267e.png) ![notes-scrnshot](https://user-images.githubusercontent.com/96635277/159149414-bb2a2c08-c7cd-445f-a5ee-d0091d133d96.png) 
+<img src="https://user-images.githubusercontent.com/96635277/159168502-89d97ce6-7d8a-476b-9019-7adc0a16972f.png" width="240" height="512" /> <img src="https://user-images.githubusercontent.com/96635277/159149422-b20dbf1c-7625-46b7-8f69-9b385461267e.png" width="240"/> <img src="https://user-images.githubusercontent.com/96635277/159149414-bb2a2c08-c7cd-445f-a5ee-d0091d133d96.png" width="240"/> 
 
 ## Contents
 [Overview](#overview)  
