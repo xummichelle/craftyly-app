@@ -4,8 +4,8 @@
 
 # Craftyly 
 
-Craftyly is an app made to be a personalized space for artists and their ideas. The app aims to provide fresh ideas and bring opportunity for community to visual artists who struggle with art block. Users can find inspiration through accessing a variety of prompt and challenge generators. 
-[Here is a short 1 minute video touring the app!](https://youtu.be/BBWoRHR6wrU)
+Craftyly is an app made to be a personalized space for artists and their ideas. The app aims to provide fresh ideas and bring opportunity for community to visual artists who struggle with art block. Users can find inspiration through accessing a variety of prompt and challenge generators. [Here](https://www.figma.com/proto/me5lQx8MGw3p8vHpCa56EM/Craftyly-Project?node-id=2-3&node-type=canvas&t=q18ZVkBnquqWuO58-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3) is a full Figma prototype and 
+[here](https://youtu.be/BBWoRHR6wrU) is a short 1 minute video touring the app!
 * **Save art prompts** from a unique prompt generator
 * **Create and edit notes** to keep ideas and thoughts
 * **Customize your interface** with a variety of colour themes  
